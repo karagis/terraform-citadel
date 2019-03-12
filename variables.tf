@@ -1,5 +1,5 @@
 variable "loc" {
-  default = "West Europe"
+  default = "westeurope"
   description = "Default Azure region"
 }
 
@@ -9,4 +9,10 @@ variable "tags" {
       environment = "training"
   }
 }
+
+variable "webapplocs" {
+  type = "list"
+  default = []
+}
+
 
