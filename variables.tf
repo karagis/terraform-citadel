@@ -15,4 +15,15 @@ variable "webapplocs" {
   default = []
 }
 
+variable "storageRg" {
+  default = "terrargRgCitadel"
+  description = "resorce group for storage account"
+}
+
+variable "storageName" {
+  default = "terrastoragetfstate"
+}
+
+
+
 
